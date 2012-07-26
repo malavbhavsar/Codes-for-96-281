@@ -4,6 +4,7 @@ gem 'json'
 gem 'rspec'
 gem 'rspec-core'
 gem 'fakeweb'
+gem 'autotest'
 
 gem 'pachube-stream'
 
