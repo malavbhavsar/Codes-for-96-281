@@ -1,6 +1,8 @@
 96-281_Assignment1
 ==================
 
+(Are you a TA or Prof? This is README.md readme.txt is in the same directory :) )
+
 First assignment of 96-281: Introduction to Software Engineering. The followinf information is taken from http://rails.sv.cmu.edu/pages/ruby You will need credentials to access it.
 
 Tab 1: Project Requirements
