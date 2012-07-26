@@ -1,7 +1,7 @@
 96-281_Assignment1
 ==================
 
-First assignment of 96-281: Introduction to Software Engineering.
+First assignment of 96-281: Introduction to Software Engineering. The followinf information is taken from http://rails.sv.cmu.edu/pages/ruby You will need credentials to access it.
 
 Tab 1: Project Requirements
 ==================
