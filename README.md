@@ -3,17 +3,23 @@
 
 First assignment of 96-281: Introduction to Software Engineering.
 
+Tab 1: Project Requirements
+==================
 
-VP of Engineering
-Subject:
-"College Students Run Amok" Detection Tool
+From: VP of Engineering
+
+Subject: "College Students Run Amok" Detection Tool
+
 Welcome,
 
 We have a project that needs to be done. This is the email I just got from our new client, "Vacation Paradise" 
 
 ---------- Forwarded message ----------
+
 From: Vacation Paradise 
+
 Date: Fri, Aug 6 at 2:56 PM
+
 Subject: College Students Run Amok
 
 
@@ -34,8 +40,8 @@ Good luck,
 VP of Engineering
 
 
-
-Plan of Attack
+Tab 2: Plan of Attack
+==================
 
 1. Install the Rails Installer. It'll take awhile to download and install, so you can continue with the instructions while you are waiting. You'll be using the ruby language (which is included in Rails Installer). You'll use the gem "bundler" to install ruby packages (gem is included in Rails Installer). We won't be using Rails here.
 
@@ -43,21 +49,30 @@ Plan of Attack
 
 3. Play around with ruby in IRB. This shell allows you to see what is possible. For example to play with a hash you can:
 
-h = {"1"=>"Todd Sedano", "2"=>"Ed Katz", "3"=>"Cecile Peraire", "4"=>"Jia Zhang", "5"=>["Red", "White", "Blue"]} 
-h["1"]
- => "Todd Sedano" 
- h["5"][2]
- => "Blue" 
+  h = {"1"=>"Todd Sedano", "2"=>"Ed Katz", "3"=>"Cecile Peraire", "4"=>"Jia Zhang", "5"=>["Red", "White", "Blue"]} 
+  
+  h["1"]
+
+  => "Todd Sedano" 
+
+  h["5"][2]
+
+  => "Blue" 
+
 4. Download the attached code. Rename the directory to include your name: cosm_lastname_firstname
 
 5. Write the code for dictionary.rb so that the dictionary_spec.rb tests pass. (rspec dictionary_spec.rb). Track how long it takes you to finish this code.
 
 6. Now that you are getting up to speed with ruby, we are ready to move forward with the project. Checkout out the COSM website: http://cosm.com COSM is a cloud data store for sensor data.
 
-Browse around the different data streams to see what is possible using COSM.
-You'll need to create an account and generate an API KEY. After creating your account, go to your profile. In the upper right hand corner of the screen, you will see a "keys" link.  
-For definitions of feeds, datastreams, and datapoints: https://cosm.com/docs/v2/  
-Our client's feed is https://cosm.com/feeds/49679, learn how to generate the json from this feed.
+  Browse around the different data streams to see what is     possible using COSM.
+
+  You'll need to create an account and generate an API KEY. After creating your account, go to your profile. In the upper right hand corner of the screen, you will see a "keys" link.  
+
+  For definitions of feeds, datastreams, and datapoints: https://cosm.com/docs/v2/  
+
+  Our client's feed is https://cosm.com/feeds/49679, learn how to generate the json from this feed.
+
 7. Our lead ruby programmer has already written test cases for you. Run the provided test case and verify that it fails. (rspec feed_spec.rb;  rspec cosm_parser.rb)
 
 8. Write the necessary code to get the test case to pass, see the README for more information. Track how long it takes you to finish this code.
@@ -65,9 +80,8 @@ Our client's feed is https://cosm.com/feeds/49679, learn how to generate the jso
 9. When done, submit your code following the directions under the "Submitting your work" task.
 
 
-
-
-
+Tab 3: Submitting your work
+==================
 
 Before submitting your work, take a few minutes to review the checklist of questions below. The checklist will help you determine if your deliverables are complete and ready to be submitted. Remember 'Tying the Bow'
 
@@ -77,10 +91,10 @@ List of Deliverables
 
 1. Submit a zip file that contains your code.
 
-When the zip file is uncompressed, does it generate a directory that has the student's name in it following the format
-INI program: cosm_INI_lastname_firstname?
-SE program:  cosm_SE_lastname_firstname?
-SM program: cosm_SM_lastname_firstname?
-Do the test cases pass?
-Is there a readme.txt file that lists the files you modified?
-Does the readme.txt should say how long it took you to finish a) the dictionary code and b) the cosm code?
+  * When the zip file is uncompressed, does it generate a directory that has the student's name in it following the format
+    - INI program: cosm_INI_lastname_firstname?
+    - SE program: cosm_SE_lastname_firstname?
+    - SM program: cosm_SM_lastname_firstname?
+  * Do the test cases pass?
+  * Is there a readme.txt file that lists the files you modified?
+  * Does the readme.txt should say how long it took you to finish a) the dictionary code and b) the cosm code?
