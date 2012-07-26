@@ -8,7 +8,7 @@ require './feed.rb'
 #Code from https://github.com/carboncalculated/pachube-stream/blob/master/examples/subscribe.rb
 
 EM.run do                
-  connection = PachubeStream::Connection.connect(:api_key => ENV["PACHUBE_API_KEY"])
+  connection = PachubeStream::Connection.connect(:api_key => "e0wbVb726nWadWuERwigaZDuU3OSAKxqWFgzTGRkUFpuND0g")
 
   connection.on_reconnect do |timeout, reconnect_retries|
     puts timeout
