@@ -12,6 +12,7 @@ class CosmParser
     request = Net::HTTP::Get.new(uri.request_uri)
     request["X-ApiKey"] = API_KEY
     response = http.request(request)
+    debugger
     response.body
   end
   
